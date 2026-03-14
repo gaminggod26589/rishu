@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitendra Thakur - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <div class="profile-image">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="90" fill="url(#gradient)" stroke="white" stroke-width="2"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#444;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#222;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <text x="100" y="110" text-anchor="middle" font-size="48" fill="white" font-weight="bold">JT</text>
+                </svg>
+            </div>
+            <h1 class="home-title">Hi, I'm Jitendra Thakur</h1>
+            <p class="home-subtitle">A passionate student crafting beautiful digital experiences with HTML, CSS, and JavaScript</p>
+            <div class="home-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Get In Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">I'm a passionate developer focusing on bridging the gap between design and engineering.</p>
+
+        <div class="about-container">
+            <div class="about-content">
+                <h3 class="about-heading">My Story</h3>
+                <p class="about-text">I began my journey into tech out of a curiosity to build visually stunning experiences. Over the years, I've honed my skills in HTML, CSS, and JavaScript - fundamental technologies for creating responsive web applications.</p>
+                <p class="about-text">When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or exploring the local community.</p>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-icon"></span>
+                        <span>Biratnagar, Nepal</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon"></span>
+                        <span>Class 12 Student - Arniko College</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-placeholder">
+                    <p>Always learning,<br><strong>ALWAYS BUILDING.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-section">
+            <h3 class="experience-title">Experience</h3>
+            <div class="experience-items">
+                <div class="experience-item">
+                    <h4 class="exp-title">Web Development Learner</h4>
+                    <p  class="exp-company">Self-Study & Arniko College</p>
+                    <p  class="exp-date">2024 - Present</p>
+                    <p  class="exp-description">Building responsive websites and learning modern web development practices with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="experience-item">
+                    <h4 class="exp-title">Computer Science Student</h4>
+                    <p  class="exp-company">Arniko College</p>
+                    <p  class="exp-date">2023 - Present</p>
+                    <p  class="exp-description">Focused on understanding core computer science concepts and practical implementation through projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <h2 class="section-title">Skills</h2>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-circle-container">
+                    <svg class="skill-circle" viewBox="0 0 200 200">
+                        <circle cx="100" cy="100" r="90" class="circle-bg"></circle>
+                        <circle cx="100" cy="100" r="90" class="circle-progress html-progress"></circle>
+                    </svg>
+                    <div class="skill-percentage">90<span>%</span></div>
+                </div>
+                <h3 class="skill-name">HTML</h3>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-circle-container">
+                    <svg class="skill-circle" viewBox="0 0 200 200">
+                        <circle cx="100" cy="100" r="90" class="circle-bg"></circle>
+                        <circle cx="100" cy="100" r="90" class="circle-progress css-progress"></circle>
+                    </svg>
+                    <div class="skill-percentage">60<span>%</span></div>
+                </div>
+                <h3 class="skill-name">CSS</h3>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-circle-container">
+                    <svg class="skill-circle" viewBox="0 0 200 200">
+                        <circle cx="100" cy="100" r="90" class="circle-bg"></circle>
+                        <circle cx="100" cy="100" r="90" class="circle-progress js-progress"></circle>
+                    </svg>
+                    <div class="skill-percentage">30<span>%</span></div>
+                </div>
+                <h3 class="skill-name">JavaScript</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h2 class="section-title">Let's Talk</h2>
+        <p class="section-subtitle">Have a project in mind or just want to say hi? I'm always open to new opportunities and interesting collaborations.</p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon"></span>
+                    <div class="contact-details">
+                        <p class="contact-label">Email</p>
+                        <p class="contact-value">jitendra@example.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon"></span>
+                    <div class="contact-details">
+                        <p class="contact-label">Phone</p>
+                        <p class="contact-value">+977 (1) 234 567 89</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon"></span>
+                    <div class="contact-details">
+                        <p class="contact-label">Location</p>
+                        <p class="contact-value">Biratnagar, Nepal</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <div class="form-header">Send a Message</div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Jitendra Thakur" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="xyz@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="How can I help you?" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2082 Jitendra Thakur. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
