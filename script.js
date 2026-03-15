@@ -137,4 +137,6 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
+console.log("Sir inhone Saulav Shrestha, Binda Gurung, Nishant Shah yee tino ai sai code likhe hai aur jitendra mere sai likhaya hai code aur paisa bhi nhi diyaa haiiii sirrr insaiii projext work maii sare hard question puchnaaa sirrr inki feilding set karden asir plz :)")
+
 console.log("sir plzz full marks sir :) ")
